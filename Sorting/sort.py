@@ -1,5 +1,8 @@
 import random
+steps = 0
 def quicksort(arr):
+    global steps
+    steps = steps + 1
     if len(arr) < 2:
         return arr
     else:
@@ -10,3 +13,4 @@ def quicksort(arr):
 
     return quicksort(left_arr) + mid_arr + quicksort(right_arr)
 print(quicksort([5,2,1,3]))
+print("Steps:",steps)
