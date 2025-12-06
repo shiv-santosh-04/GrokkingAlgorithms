@@ -31,6 +31,9 @@ This repository is part of my journey to strengthen core CS fundamentals, improv
 ### ✔ Searching  
 - Linear Search  
 - Binary Search  
+
+### ✔ Data Structures
+- Hash Tables
  
 
 (*This list will grow as I progress through the book.*)
