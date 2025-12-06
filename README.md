@@ -33,6 +33,9 @@ This repository is part of my journey to strengthen core CS fundamentals, improv
 - Binary Search  
 
 ### ✔ Data Structures
+- Arrays
+- Linked List
+- Stack
 - Hash Tables
  
 
