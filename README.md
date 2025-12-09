@@ -37,6 +37,9 @@ This repository is part of my journey to strengthen core CS fundamentals, improv
 - Linked List
 - Stack
 - Hash Tables
+
+### ✔ Iterations
+- Frequency of numbers in a list
  
 
 (*This list will grow as I progress through the book.*)
