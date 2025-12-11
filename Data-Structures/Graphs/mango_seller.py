@@ -19,9 +19,7 @@ def search(name):
     return False
 
 def person_is_seller(name):
-    if name[-1] == "m":
-        return 1
-
+    return name == "anuj" or name == "jonny"
 
 graph = {}
 graph["you"] = ["alice", "bob", "claire"]
