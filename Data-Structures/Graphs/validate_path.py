@@ -1,18 +1,19 @@
 from collections import deque
-def search(node):
+def search(start):
     search_queue = deque()
+    search_queue.append(start)
     searched = set()
 
 
     while search_queue:
-        search_queue += graph[node]
-        node1 = search_queue.popleft()
-        if node1 not in searched:
-            if node1 == "G":
-                return True
-            searched.add(node1)
-            search_queue.append(graph[node1])
-    return False
+        node = search_queue.popleft()
+
+        if node == 'G':
+            return True
+
+        if node not in searched:
+            searched.add(node)
+            search_queue += graph[node]
 
 graph = {
     "A": ["B", "C"],
@@ -24,7 +25,7 @@ graph = {
     "G": []
 }
 result = search("A")
-if result == True:
+if result:
     print("Path A to G exists.")
 else:
     print("There is no path from A to G.")
