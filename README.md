@@ -39,6 +39,7 @@ This repository is part of my journey to strengthen core CS fundamentals, improv
 - Hash Tables
 - #### ✔ Graphs
 - Breadth First Search
+- Depth First Search
 
 ### Trees
 - File Traversal 
