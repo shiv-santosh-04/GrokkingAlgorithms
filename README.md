@@ -41,7 +41,8 @@ This repository is part of my journey to strengthen core CS fundamentals, improv
 - Breadth First Search
 
 ### Trees
-- File Traversal 
+- File Traversal
+- Huffman Coding (Theory)
 
 ### ✔ Iterations
 - Frequency of numbers in a list
