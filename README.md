@@ -48,6 +48,8 @@ This repository is part of my journey to strengthen core CS fundamentals, improv
 ### ✔ Iterations
 - Frequency of numbers in a list
 - Finding duplicate numbers in a list
+- Sub array problems
+- Two sum problem
  
 
 (*This list will grow as I progress through the book.*)
